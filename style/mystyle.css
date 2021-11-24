@@ -1,0 +1,209 @@
+*{
+margin : 0;
+padding : 0;
+font-size : 16px;
+font-weight : normal;
+}
+a{text-decoration: underline}
+a:hover {text-decoration:none}
+p{
+    background-color: rgba (109, 30,30, .1);
+    font-size: 16px;
+    font-family: SF Iron Gothic Shaded}
+    .container{
+     
+        max-width: 1375px;
+        margin : 0 auto;
+        text-align: center;
+    }
+    .container-how{
+        padding : 70px 0 127px;
+        text-align: center;
+        font-size: 44px;
+        line-height: 36px;
+        font-style: bold ;
+        color: black;
+
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px auto;
+    }
+    .nav-li{
+        display: inline-block;
+        font-style: bold;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .nav-li:not(:last-of-type){
+        margin-right: 94px;
+    }
+    .nav-link{
+        color: black;
+        text-decoration: none;
+    }
+    .nav-link:hover{
+        color: #FA4A0C;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px auto;
+    }
+    .nav-li1{
+        display: inline-block;
+        font-style: bold;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .nav-li1:not(:last-of-type){
+        margin-right: 94px;
+    }
+    .nav-link1{
+        color: black;
+        text-decoration: none;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .nav-link1:hover{
+        color: #FA4A0C;
+    }
+    .app{
+        background-image: url(../img/food.png);
+        color: white;
+        text-align: center;
+        padding: 80px 0 162px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .app-pretitle{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .app-title{
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 80px;
+        max-width: 650px;
+        margin: 10px auto;
+    }
+    .app-text{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        margin-bottom: 54px;
+    }
+    .button{
+        width: 236px;
+        height: 68px;
+        color: white;
+        border-radius: 30px;
+        font-size: 24px;
+        line-height: 37px;
+  
+    }
+    .button:first-of-type{
+        background: #FA4A0C;
+        border: 1px solid #FA4A0C;
+        margin-right: 67px;
+    }
+    .button:last-of-type{
+        background: none;
+        border: 1px solid rgb(143, 113, 113) ;
+    }
+    .cntc {
+        background-image: url(../img/leg.png);
+        color: white;
+        text-align: center; 
+        padding: 146px 0 102px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 288px auto;
+    }
+    .text{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+    }
+    .text1{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .btn{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        color: white;
+        margin:77px 0px 16px;
+    }
+    .btn:first-of-type{
+        width: 142px;
+        height: 64px;
+        border-radius: 10px;
+        background: #FA4A0C;
+        border: 1px solid #FA4A0C;
+        margin-right: 30px;
+        
+        
+    }
+    .btn:last-of-type{
+        width: 173px;
+        height: 60px;
+        background: none;
+        border: 1px solid  rgb(143, 113, 113);
+    }
+    .mob{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mob-pretitle{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #FA4A0C;
+    }
+    .mob-title{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        color: #021253;
+        max-width: 560px;
+    }
+    .mob-text{
+        font-size: 24px;
+        line-height: 38px;
+        color: #737373;
+        max-width: 400px;
+    }
+    .mob1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .mob-pretitle1{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #FA4A0C;
+    }
+    .mob-title1{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        color: #021253;
+        max-width: 450px;
+    }
+    .mob-text1{
+        font-size: 24px;
+        line-height: 38px;
+        color: #737373;
+        max-width: 400px;
+    }
